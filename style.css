@@ -1,0 +1,77 @@
+.header{
+    width:100%;
+    padding:10px;
+    margin-bottom:25px;
+    background-color:blue;
+    color: azure;
+    text-align: center;
+}
+.nav{
+    width:100%;
+    padding:10px;
+    margin-bottom:25px;
+    background-color:blue;
+    color: azure;
+    text-align: left;
+}
+.footer{
+    width:100%;
+    padding:10px;
+    background-color:black;
+    color: azure;
+    text-align: center;
+}
+
+table{
+    background-color: lightblue;
+}
+th {
+    padding:10px;
+    background-color:lightcyan;
+    border:1px solid #000000;
+}
+td{
+    padding:10px;
+    border:1px solid #000000;
+}
+h1, h2{
+    text-align: center;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.login{
+    width: 50%;
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.button {
+    width: 300px;
+    align-items: center;
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+}
